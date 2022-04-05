@@ -22,6 +22,7 @@ const generator = (color) => {
 };
 
 const loop = () => {
+  generator(randColor());
   setTimeout(() => {
     generator(randColor());
     loop();
