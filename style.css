@@ -10,3 +10,13 @@ body{
   margin: auto;
   height: 100vh;
 }
+
+p{
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+ transform: translate(-50%,-50%);
+ font-size: 25px;
+ font-weight: bold;
+}
